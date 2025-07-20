@@ -1,6 +1,6 @@
 import { DefaultEnabledExtraAdditions } from '@/constants/defaultEnabledExtraAdditions.ts';
 import { useCalculateAdditions } from "@/hooks/useCalculateAdditions";
-import type { EnabledExtraAdditions, Profile, InputProfileType } from '@/types.ts';
+import type { EnabledExtraAdditions, Profile, InputProfile as InputProfileType } from '@/types.ts';
 import { Additions } from "./additions/Additions";
 import { InputProfile } from "./inputProfile/InputProfile";
 import { TargetProfile } from "./targetProfile/TargetProfile";
