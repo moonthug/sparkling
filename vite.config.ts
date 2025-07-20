@@ -7,6 +7,7 @@ import { TanStackRouterVite } from '@tanstack/router-plugin/vite'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: './sparkling',
   plugins: [
     TanStackRouterVite({ autoCodeSplitting: true }),
     viteReact(),
