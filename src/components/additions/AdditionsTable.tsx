@@ -108,7 +108,7 @@ export function AdditionsTable({
               onCheckedChange={() => setMineralEnabled('mgoh2') }
             />
           </TableCell>
-          <TableCell><MineralName name="Mg(OH)2" description="Magnesium Hydroxide"/></TableCell>
+          <TableCell><MineralName name="Mg(OH)2" description="Magnesium Hydroxide [Milk of Magnesia]"/></TableCell>
           <TableCell>{ formatValue(additions?.mgoh2) }</TableCell>
         </TableRow>
         <TableRow>
@@ -118,7 +118,7 @@ export function AdditionsTable({
               onCheckedChange={() => setMineralEnabled('caoh2') }
             />
           </TableCell>
-          <TableCell><MineralName name="Ca(OH)2" description="Calcium Hydroxide"/></TableCell>
+          <TableCell><MineralName name="Ca(OH)2" description="Calcium Hydroxide [Slacked Lime]"/></TableCell>
           <TableCell>{ formatValue(additions?.caoh2) }</TableCell>
         </TableRow>
         <TableRow>
@@ -128,7 +128,7 @@ export function AdditionsTable({
               onCheckedChange={() => setMineralEnabled('mgco3') }
             />
           </TableCell>
-          <TableCell><MineralName name="MgCO3" description="Magnesium Carbonate [Chalk]"/></TableCell>
+          <TableCell><MineralName name="MgCO3" description="Magnesium Carbonate"/></TableCell>
           <TableCell>{ formatValue(additions?.mgco3) }</TableCell>
         </TableRow>
         <TableRow>
@@ -138,7 +138,7 @@ export function AdditionsTable({
               onCheckedChange={() => setMineralEnabled('caco3') }
             />
           </TableCell>
-          <TableCell><MineralName name="CaCO3" description="Calcium Carbonate [Limestone]"/></TableCell>
+          <TableCell><MineralName name="CaCO3" description="Calcium Carbonate [Chalk]"/></TableCell>
           <TableCell>{ formatValue(additions?.caco3) }</TableCell>
         </TableRow>
       </TableBody>

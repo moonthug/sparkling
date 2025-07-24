@@ -21,7 +21,7 @@ export function Calculator() {
   );
 
   return (
-    <div className="flex flex-row gap-8">
+    <div className="flex flex-row gap-12">
       <div className="flex flex-col rounded-lg border w-2/8">
         <InputProfile inputProfile={inputProfile} setInputProfile={setInputProfile} />
       </div>

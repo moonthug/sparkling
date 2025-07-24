@@ -23,7 +23,7 @@ export function InputProfile({
 
   return (
     <>
-      <div className="flex flex-col gap-2 p-4">
+      <div className="flex flex-col gap-2 p-4 min-h-36">
         <h2 className="text-lg mb-2">Water Source</h2>
         <InputProfileSelect onChange={inputProfileId => setInputProfileFromId(inputProfileId)} />
       </div>
