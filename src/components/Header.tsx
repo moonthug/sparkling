@@ -1,7 +1,7 @@
 import { GithubIcon } from '@/components/GithubIcon.tsx';
 import { ModeToggle } from '@/components/ModeToggle.tsx';
 import { Button } from '@/components/ui/button.tsx';
-import { Calculator, MessageCircleQuestion, Github } from 'lucide-react';
+import { Calculator, MessageCircleQuestion } from 'lucide-react';
 import { Link } from '@tanstack/react-router';
 
 import {
